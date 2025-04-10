@@ -1,0 +1,17 @@
+{
+  "embeds": [
+    {
+      "title": "🏝️ Armas - Solo Island",
+      "color": 16777215,
+      "fields": [
+        { "name": "Twin Relic Maces", "value": "E: 💰 535.00K\nD: 💰 1.61M\nC: 💰 4.82M\nB: 💰 14.46M\nA: 💰 43.38M\nS: 💰 130.14M\nSS: 💰 390.42M", "inline": true },
+        { "name": "Bronze War Axe", "value": "E: 💰 242.00K\nD: 💰 726.00K\nC: 💰 2.18M\nB: 💰 6.54M\nA: 💰 19.62M\nS: 💰 58.86M\nSS: 💰 176.58M", "inline": true },
+        { "name": "Hybrid War Axe", "value": "E: 💰 110.00K\nD: 💰 330.00K\nC: 💰 990.00K\nB: 💰 2.97M\nA: 💰 8.91M\nS: 💰 26.73M\nSS: 💰 80.19M", "inline": true },
+        { "name": "Corsair Blade", "value": "E: 💰 49.00K\nD: 💰 147.00K\nC: 💰 441.00K\nB: 💰 1.32M\nA: 💰 3.96M\nS: 💰 11.88M\nSS: 💰 35.64M", "inline": true },
+        { "name": "Twin Simple Wands", "value": "E: 💰 22.00K\nD: 💰 66.00K\nC: 💰 198.00K\nB: 💰 594.00K\nA: 💰 1.78M\nS: 💰 5.34M\nSS: 💰 16.02M", "inline": true },
+        { "name": "Beast Bane", "value": "E: 💰 10.00K\nD: 💰 30.00K\nC: 💰 90.00K\nB: 💰 270.00K\nA: 💰 810.00K\nS: 💰 2.43M\nSS: 💰 7.29M", "inline": true }
+      ],
+      "footer": { "text": "Solo Island - Preços por Rank" }
+    }
+  ]
+}

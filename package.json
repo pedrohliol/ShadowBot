@@ -1,0 +1,12 @@
+{
+  "name": "meu-bot-discord",
+  "version": "1.0.0",
+  "description": "Bot de Discord que envia embeds de armas",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.11.0"
+  }
+}
