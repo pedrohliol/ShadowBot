@@ -1,11 +1,12 @@
+require('dotenv').config();
 const { Client, GatewayIntentBits } = require('discord.js');
-const fs = require('fs');
-const config = require('./config.json');
 
-const client = new Client({ intents: [GatewayIntentBits.Guilds] });
+const client = new Client({
+  intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages]
+});
 
 client.once('ready', () => {
-  console.log(`Bot está online como ${client.user.tag}`);
+  console.log(`✅ Bot está online como ${client.user.tag}`);
 });
 
 client.on('interactionCreate', interaction => {
@@ -20,4 +21,4 @@ client.on('interactionCreate', interaction => {
   }
 });
 
-client.login(config.token);
+client.login(process.env.DISCORD_TOKEN);
